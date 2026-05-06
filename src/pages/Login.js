@@ -104,6 +104,27 @@ function Login() {
                     Login
                 </button>
 
+                <br /><br />
+
+                <p
+                    style={{
+                        textAlign: "center"
+                    }}
+                >
+                    Don't have an account?
+                </p>
+
+                <button
+                    onClick={() =>
+                        window.location.href="/signup"
+                    }
+                    style={{
+                        width: "100%"
+                    }}
+                >
+                    Signup
+                </button>
+
             </div>
 
         </div>
